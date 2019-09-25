@@ -1,0 +1,39 @@
+{
+  "name": "cardpay-sdk",
+  "version": "0.0.7",
+  "description": "CardPay nodejs implementation.",
+  "main": "lib/cardpay.js",
+  "scripts": {
+    "test": "mocha ./test/*.test.* --require should --reporter spec --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/griffex-internal/cardpay-sdk.git"
+  },
+  "keywords": [
+    "creditcard",
+    "cardpay",
+    "card"
+  ],
+  "author": "Karan K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/griffex-internal/cardpay-sdk/issues"
+  },
+  "homepage": "https://gitlab.com/griffex-internal/cardpay-sdk#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nock": "^10.0.6",
+    "node-mocks-http": "^1.7.6",
+    "should": "^13.2.3",
+    "sinon": "^7.4.1"
+  },
+  "dependencies": {
+    "cardpay-sdk": "0.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sha.js": "^2.4.11",
+    "uuid": "^3.3.2"
+  }
+}
