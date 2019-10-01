@@ -1,6 +1,6 @@
 {
   "name": "cardpay-sdk",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "CardPay nodejs implementation.",
   "main": "lib/cardpay.js",
   "scripts": {
