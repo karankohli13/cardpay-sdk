@@ -23,7 +23,7 @@
   "homepage": "https://gitlab.com/griffex-internal/cardpay-sdk#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nock": "^10.0.6",
     "node-mocks-http": "^1.7.6",
     "should": "^13.2.3",
